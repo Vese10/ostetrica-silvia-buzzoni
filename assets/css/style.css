@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "";
+}
+
+:root {
+  --bgCta: #eacac5;
+  --main: #5d5852;
+  --gradient2: #ffffff;
+}
+
+/*MediaQuery*/
+/*schermo maxi */
+.navbar {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bgCta) !important;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+.dropdown-menu .dropdown-item {
+  white-space: normal;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: var(--main);
+}
+
+.btn-tariffario {
+  background-color: var(--gradient2);
+  border: 1px solid var(--main);
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.btn-app {
+  background-color: var(--gradient2);
+  border: 1px solid var(--main);
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+/* Tablet */
+@media (max-width: 991px) {}
+
+/* Smartphone */
+@media(max-width: 390px) {}
