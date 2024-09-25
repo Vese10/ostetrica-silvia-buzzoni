@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "";
+  font-family: "Open Sans", sans-serif;
 }
 
 :root {
@@ -28,6 +28,14 @@
 .dropdown-menu .dropdown-item {
   white-space: normal;
 }
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
 
 .nav-link {
   font-size: 20px;
