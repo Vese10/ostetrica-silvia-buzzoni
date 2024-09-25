@@ -23,6 +23,10 @@
   background-color: var(--bgCta) !important;
 }
 
+.navbar-cont {
+  background-color: var(--bgCta);
+}
+
 .navbar-brand img {
   height: 80px;
 }
@@ -41,7 +45,7 @@
   margin-top: -1px;
 }
 
-.show {
+.dropdown-menu {
   width: max-content;
   background-color: var(--bgCta);
 }
@@ -107,24 +111,109 @@
   background: linear-gradient(180deg, #ffffff, #eacac5);
 }
 
-.chi-sono {
+.title {
   font-size: 35px;
   font-weight: 700;
   color: var(--main);
 }
 
-.chi-sono-description {
+.text {
   font-size: 15px;
   font-weight: 500;
   color: var(--main);
+  text-align: left;
+}
+
+/* Third Section */
+.third-section {
+  min-height: max-content;
+  background: linear-gradient(180deg, #eacac5, #ffffff);
+}
+
+.third-img {
+  border-radius: 20px;
+}
+
+.accordion-item {
+  background-color: transparent;
+}
+
+.accordion-button {
+  color: #5d5852;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--main);
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.btn-accordion {
+  background-color: var(--main);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-accordion:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  background-color: var(--main);
+}
+
+/* Fourth Section */
+.fourth-section {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ffffff, #eacac5);
+}
+
+.sub-title {
+  color: #5d5852;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.domicilio-cont {
+  width: 100%;
+}
+
+.domicilio-img {
+  max-height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-dove {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--main);
+  text-align: left;
+  width: 90%;
+}
+
+.maps-cont {
+  width: 90%;
 }
 
 /* Tablet */
 @media (max-width: 991px) {
 
   /* Navbar */
-  .show {
-    background-color: var(--bgCta);
+  .btn-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-app {
+    margin: 15px !important;
   }
 
   /* First Section */
@@ -139,6 +228,32 @@
   /* Second section */
   .second-section {
     background: var(--bgCta);
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  /* Third Section */
+  .third-section {
+    background: var(--bgCta);
+  }
+
+  .third-img {
+    border-radius: 0;
+  }
+
+  /* Fourth Section */
+  .fourth-section {
+    background: var(--bgCta);
+  }
+
+  .text-dove {
+    width: 100%;
+  }
+
+  .maps-cont {
+    width: 100%;
   }
 }
 
