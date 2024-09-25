@@ -13,6 +13,8 @@
 
 /*MediaQuery*/
 /*schermo maxi */
+
+/* Navbar */
 .navbar {
   height: 100px;
   position: sticky;
@@ -32,10 +34,17 @@
 .dropdown-submenu {
   position: relative;
 }
+
 .dropdown-submenu .dropdown-menu {
   top: 0;
   left: 100%;
   margin-top: -1px;
+}
+
+.show {
+  width: max-content;
+  background-color: var(--bgCta);
+}
 
 .nav-link {
   font-size: 20px;
@@ -51,13 +60,87 @@
 
 .btn-app {
   background-color: var(--gradient2);
-  border: 1px solid var(--main);
+  color: var(--main);
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-app:hover {
+  transform: scale(1.1);
+  color: var(--main);
+}
+
+/* First Section */
+
+.first-section {
+  min-height: 92vh;
+  background-image: url(../img/first-section-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.presentazione {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.btn-servizi {
+  background-color: var(--gradient2);
+  color: var(--main);
   border-radius: 25px;
   font-size: 20px;
+  font-weight: 700;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-servizi:hover {
+  transform: scale(1.1);
+  color: var(--main);
+}
+
+/* Second section */
+.second-section {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ffffff, #eacac5);
+}
+
+.chi-sono {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--main);
+}
+
+.chi-sono-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--main);
 }
 
 /* Tablet */
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+
+  /* Navbar */
+  .show {
+    background-color: var(--bgCta);
+  }
+
+  /* First Section */
+  .first-section {
+    justify-content: space-around !important;
+  }
+
+  .presentazione {
+    font-size: 30px;
+  }
+
+  /* Second section */
+  .second-section {
+    background: var(--bgCta);
+  }
+}
 
 /* Smartphone */
 @media(max-width: 390px) {}
