@@ -203,6 +203,10 @@
   width: 90%;
 }
 
+.map {
+  border-radius: 20px;
+}
+
 /* Tablet */
 @media (max-width: 991px) {
 
