@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $privacy = isset($_POST['privacy']);
 
     if ($privacy && !empty($nome_cognome) && !empty($email) && !empty($telefono) && !empty($messaggio)) {
-        $to = 'silvia.buzzoni1009@gmail.com';
+        $to = 'veselin.hristov.10@gmail.com';
         $subject = 'Richiesta Informazioni da sito '.$_SERVER['HTTP_HOST'];
         $message = "Nome e Cognome: $nome_cognome\n";
         $message .= "E-mail: $email\n";

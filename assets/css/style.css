@@ -50,11 +50,6 @@
   background-color: var(--bgCta);
 }
 
-.nav-link {
-  font-size: 20px;
-  color: var(--main);
-}
-
 .btn-tariffario {
   background-color: var(--gradient2);
   border: 1px solid var(--main);
@@ -122,6 +117,7 @@
   font-weight: 500;
   color: var(--main);
   text-align: left;
+  width: 90%;
 }
 
 /* Third Section */
@@ -135,6 +131,7 @@
 }
 
 .accordion-item {
+  border: none;
   background-color: transparent;
 }
 
@@ -143,11 +140,17 @@
   font-size: 20px;
   font-weight: 700;
   background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-button:hover {
+  transform: scale(1.05);
 }
 
 .accordion-button:not(.collapsed) {
   color: var(--main);
   background-color: transparent;
+  transform: scale(1.05);
 }
 
 .accordion-button:focus {
@@ -173,6 +176,7 @@
 .fourth-section {
   min-height: 100vh;
   background: linear-gradient(180deg, #ffffff, #eacac5);
+  overflow: hidden;
 }
 
 .sub-title {
@@ -187,6 +191,12 @@
 
 .domicilio-img {
   max-height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.visita-grav-img {
+  max-height: 40vh;
   width: 100%;
   object-fit: cover;
 }
@@ -207,7 +217,157 @@
   border-radius: 20px;
 }
 
+/* Fifth Section */
+.fifth-section {
+  background: linear-gradient(180deg, #eacac5, #ffffff);
+}
+
+.form-control {
+  border: 1px solid var(--main);
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+.form-check-input {
+  border: 1px solid var(--main);
+}
+
+.form-check-label {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--main);
+  text-align: start;
+}
+
+/* Footer */
+
+.footer-cont {
+  background-color: var(--bgCta);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.policy {
+  padding-left: 0 !important;
+}
+
+.social-text {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--main);
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-text:hover {
+  transform: scale(1.1);
+}
+
+.footer-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+/* Gravidanza Section */
+.gravidanza-section {
+  min-height: 90vh;
+  background: linear-gradient(180deg, #eacac5, #ffffff);
+  overflow: hidden;
+}
+
+.gravidanza-img-desktop {
+  position: absolute;
+  max-width: 100%;
+  left: 0;
+  bottom: 10px;
+  opacity: 0.5;
+}
+
+.gravidanza-img-mobile {
+  position: absolute;
+  max-width: 100%;
+  left: 0;
+  bottom: 10px;
+  opacity: 0.5;
+}
+
+
+.gcpp,
+.gco,
+.gpp,
+.gvg,
+.ga {
+  height: 350px;
+  font-size: 50px;
+  font-weight: 700;
+  width: 350px;
+  color: var(--bgCta);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.gcpp {
+  background-image: url(../img/corso-pre-parto.jpg);
+}
+
+.gco {
+  background-image: url(../img/consulenza-ostetrica.jpg);
+}
+
+.gpp {
+  background-image: url(../img/pavimento-pelvico.jpg);
+}
+
+.gvg {
+  background-image: url(../img/visita-in-gravidanza.jpg);
+}
+
+.ga {
+  background-image: url(../img/acquaticita.jpg);
+}
+
+.gcpp:hover,
+.gco:hover,
+.gpp:hover,
+.gvg:hover,
+.ga:hover {
+  transform: scale(1.1);
+}
+
 /* Tablet */
+@media (min-width: 991px) {
+
+  .nav-link {
+    font-size: 20px;
+    color: var(--main);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-link:hover {
+    transform: scale(1.1);
+  }
+
+  .accompagnamento,
+  .parto {
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+}
+
+
 @media (max-width: 991px) {
 
   /* Navbar */
@@ -234,9 +394,6 @@
     background: var(--bgCta);
   }
 
-  .title {
-    font-size: 25px;
-  }
 
   /* Third Section */
   .third-section {
@@ -259,7 +416,52 @@
   .maps-cont {
     width: 100%;
   }
+
+  .text {
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .first,
+  .third,
+  .fifth {
+    justify-content: start !important;
+  }
+
+  .second,
+  .fourth {
+    justify-content: end !important;
+  }
+
+}
+
+@media (max-width: 496px) {
+
+  .title {
+    font-size: 25px;
+  }
+
+  /* Gravidanza Section */
+  .gcpp,
+  .gco,
+  .gpp,
+  .gvg,
+  .ga {
+    height: 200px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 200px;
+  }
 }
 
 /* Smartphone */
-@media(max-width: 390px) {}
+@media(max-width: 390px) {
+
+  .informative {
+    flex-direction: column !important;
+  }
+
+}
