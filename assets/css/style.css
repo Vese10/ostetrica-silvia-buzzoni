@@ -16,11 +16,24 @@
 
 /* Navbar */
 .navbar {
-  height: 100px;
+  height: 80px;
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: var(--bgCta) !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler.open .navbar-toggler-icon {
+  transform: rotate(90deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E"); /* Simbolo della X */
 }
 
 .navbar-cont {

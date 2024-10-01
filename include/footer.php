@@ -25,7 +25,7 @@
   </section>
 
   <section class="footer">
-    <p class="footer-text text-center m-3">D.ssa Silvia Buzzoni Ostetrica – p.iva 02068870381 – Iscritta all’ordine Ostetriche di Ferrara n. 1034 - Tutti i diritti riservati</p>
+    <p class="footer-text text-center my-3 mx-5">D.ssa Silvia Buzzoni Ostetrica – p.iva 02068870381 – Iscritta all’ordine Ostetriche di Ferrara n. 1034 - Tutti i diritti riservati</p>
   </section>
 
 </footer>

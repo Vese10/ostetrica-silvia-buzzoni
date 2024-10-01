@@ -12,7 +12,7 @@ if ($pageName == "index.php") {
     <!-- Logo desktop -->
     <a class="navbar-brand ms-3 d-none d-xl-flex align-items-center" href="https://ostetricasilviabuzzoni.it/">
       <img src="../assets/img/logo-immagine.png" alt="Logo Ostetrica Silvia Buzzoni"> <!-- Logo aziendale -->
-      <img src="../assets/img/logo-scritta.png" alt="Scritta Ostetrica Silvia Buzzoni" class="ms-2">
+      <img src="../assets/img/logo-scritta.png" alt="Scritta Ostetrica Silvia Buzzoni" class="ms-2 logo-scritta">
       <!-- Seconda immagine -->
     </a>
 
