@@ -138,14 +138,23 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const navbarToggler = document.querySelector(".navbar-toggler");
-  const navbarCollapse = document.querySelector("#navbarNav");
+  var navbarToggler = document.querySelector(".navbar-toggler");
+  var navbarCollapse = document.querySelector(".navbar-collapse");
 
-  navbarToggler.addEventListener("click", function () {
-    navbarToggler.classList.toggle("open");
+  // Osservatore di mutazioni per monitorare i cambiamenti di classe
+  var observer = new MutationObserver(function (mutationsList) {
+    mutationsList.forEach(function (mutation) {
+      if (mutation.attributeName === 'class') {
+        // Controlla se la classe 'show' è stata aggiunta o rimossa
+        if (navbarCollapse.classList.contains('show')) {
+          navbarToggler.classList.add('open');
+        } else {
+          navbarToggler.classList.remove('open');
+        }
+      }
+    });
   });
 
-  navbarCollapse.addEventListener("hidden.bs.collapse", function () {
-    navbarToggler.classList.remove("open");
-  });
+  // Configurazione dell'osservatore per osservare i cambiamenti delle classi
+  observer.observe(navbarCollapse, { attributes: true });
 });
