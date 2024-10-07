@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,7 +35,7 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">L’acquaticità neonatale è un’attività dolce e stimolante pensata per favorire lo sviluppo psicomotorio del neonato attraverso il contatto con l’acqua. I neonati, abituati all’ambiente liquido del grembo materno, trovano nell’acqua un elemento naturale in cui muoversi liberamente, favorendo il rilassamento e il benessere generale.<br>Durante le sessioni, che si svolgono in un ambiente sicuro e confortevole, il neonato, accompagnato dal genitore, potrà esplorare l’acqua attraverso giochi ed esercizi pensati per migliorare la coordinazione, la respirazione e il legame affettivo tra genitore e bambino. L'acquaticità neonatale aiuta anche a sviluppare la fiducia del neonato nell’ambiente acquatico, promuovendo una crescita armoniosa e un’esperienza sensoriale unica.<br>Questo percorso è adatto ai neonati dai primi mesi di vita ed è un'opportunità per vivere insieme un momento di gioco, scoperta e relazione profonda.<br>Il corso per i neonati si svolge il venerdì alle 17 (quando ci sono molti bambini viene aperto anche il turno delle 17:45). Per i bimbi serve solo il costumino adatto all'acqua mentre per i genitori servono costume e cuffia.  E' un pacchetto da 5 ingressi e costa 60 euro, si occupa dei pagamenti la segreteria della piscina Doro di Ferrara, dove si svolge il corso.<br>Per maggiore informazioni è possibile contattare la segreteria.</p>
           <a href="tel:+39053255535" class="btn btn-accordion">Contatta segreteria</a>
         </div>
       </div>

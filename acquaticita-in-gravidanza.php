@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,7 +35,7 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">L’acquaticità in gravidanza è un’attività dolce e rilassante pensata per le future mamme, che sfrutta i benefici dell’acqua per migliorare il benessere fisico ed emotivo. L’acqua, grazie alla sua capacità di alleviare il peso corporeo, offre un ambiente sicuro e confortevole in cui muoversi liberamente, riducendo la pressione sulle articolazioni e sulla schiena.<br>Durante le sessioni di acquaticità, svolgeremo esercizi specifici che aiutano a migliorare la circolazione, rafforzare i muscoli necessari per il parto e favorire una maggiore consapevolezza del proprio corpo. Inoltre, l’acqua facilita il rilassamento, riducendo stress e tensioni, e contribuisce a migliorare la respirazione, fondamentale per prepararsi al travaglio.<br>Questo percorso è ideale per le donne in ogni fase della gravidanza, offrendo un momento di connessione con il proprio corpo e con il bambino, in un ambiente tranquillo e accogliente.<br>Il corso di acquaticità in gravidanza si svolge presso la piscina Doro di Ferrara il martedì e il venerdì dalle ore 11 alle ore 12. Comprende una lezione di prova gratuita e poi ci sono diverse possibilità:<br>- Abbonamento mensile da 2 volte a settimana a 70 euro.<br>- Abbonamento mensile da 1 volta a settimana a 40 euro.<br>- Ingressi singoli ad esaurimento passando la tesserina che constano un po' di più (se ne occupa la piscina non ricordo quanto di preciso).<br>Inoltre c'è la tessera associativa che vale 12 mesi di assicurazione, costa 35 euro all'iscrizione.<br>Per maggiore informazioni è possibile contattare la segreteria.</p>
           <a href="tel:+39053255535" class="btn btn-accordion">Contatta segreteria</a>
         </div>
       </div>

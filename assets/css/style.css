@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 :root {
@@ -27,13 +27,18 @@
   border: none !important;
 }
 
+.navbar-toggler:focus, 
+.navbar-toggler:active {
+  box-shadow: none;
+}
+
 .navbar-toggler-icon {
   transition: transform 0.3s ease-in-out;
 }
 
 .navbar-toggler.open .navbar-toggler-icon {
   transform: rotate(90deg);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E"); /* Simbolo della X */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba%2833, 37, 41, 0.75%29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E"); /* Simbolo della X */
 }
 
 .navbar-cont {
@@ -63,11 +68,8 @@
   background-color: var(--bgCta);
 }
 
-.btn-tariffario {
-  background-color: var(--gradient2);
-  border: 1px solid var(--main);
-  border-radius: 25px;
-  font-size: 20px;
+.btn-info-contact {
+  width: 100%;
 }
 
 .btn-app {
@@ -230,6 +232,15 @@
   border-radius: 20px;
 }
 
+.address {
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.address:hover {
+  transform: scale(1.1);
+}
+
 /* Fifth Section */
 .fifth-section {
   background: linear-gradient(180deg, #eacac5, #ffffff);
@@ -363,7 +374,8 @@ ul {
 @media (min-width: 991px) {
 
   .nav-link {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
     color: var(--main);
     transition: transform 0.3s ease-in-out;
   }
@@ -391,6 +403,12 @@ ul {
 
   .btn-app {
     margin: 15px !important;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--main);
   }
 
   /* First Section */

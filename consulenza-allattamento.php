@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,10 +35,10 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">La consulenza allattamento è pensata per sostenere le neomamme durante uno dei momenti più delicati e importanti dopo la nascita del bambino. Ogni percorso di allattamento è unico e può presentare sfide come difficoltà di attacco, gestione della produzione di latte, dolori al seno o dubbi su come garantire al neonato il nutrimento necessario.<br>Durante la consulenza, ti offrirò supporto personalizzato, ascoltando le tue esigenze e rispondendo alle tue domande. Valuteremo insieme la posizione del bambino, la corretta tecnica di attacco e ti fornirò consigli pratici per prevenire e risolvere eventuali difficoltà. Se necessario, esploreremo anche alternative come l'uso del tiralatte o l'integrazione con il latte artificiale, sempre nel rispetto delle tue scelte e del benessere del neonato.<br>Il mio obiettivo è aiutarti a vivere l’allattamento in modo sereno e consapevole, fornendoti gli strumenti necessari per creare una relazione di nutrimento e affetto con il tuo bambino.</p>
           <div class="d-flex">
-            <a href="#" class="btn btn-accordion mx-3">Prenota visita in studio</a>
-            <a href="https://wa.me/3331676725" class="btn btn-accordion mx-3">Richiedi visita a domicilio</a>
+            <a href="https://ostetricasilviabuzzoni.simplybook.it/v2/#book/service/10/count/1/" target="_blank" class="btn btn-accordion mx-3">Prenota visita in studio</a>
+            <a href="https://ostetricasilviabuzzoni.simplybook.it/v2/#book/service/5/count/1/" target="_blank" class="btn btn-accordion mx-3">Richiedi visita a domicilio</a>
           </div>
         </div>
       </div>

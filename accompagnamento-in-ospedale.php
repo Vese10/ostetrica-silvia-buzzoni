@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,8 +35,11 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a href="https://wa.me/3331676725" class="btn btn-accordion">Contattami</a>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">L’accompagnamento in sala parto è un servizio dedicato alle famiglie che desiderano un supporto continuo e personalizzato nelle fasi più delicate del travaglio e della nascita. A partire dalla 37ª settimana di gravidanza, mi rendo reperibile per offrire assistenza e consigli su come affrontare i prodromi, ascoltando le tue esigenze e quelle della tua famiglia.<br>Quando il travaglio inizia, posso raggiungerti a domicilio per monitorare l’andamento e aiutarti a gestire le prime contrazioni. Il mio obiettivo è guidarti e farti sentire sicura, affinché possiamo trasferirci in ospedale al momento più opportuno, evitando inutili anticipi o ritardi.<br>Durante il parto, sarò accanto a te in sala parto, offrendoti il mio sostegno fisico ed emotivo, e rimanendo con te anche nelle ore successive alla nascita. Sarò lì per aiutarti ad affrontare i primi momenti con il neonato e per supportarti nell’avvio dell’allattamento, garantendo che tu e il tuo bambino riceviate l’assistenza e l’attenzione di cui avete bisogno.<br>Con questo servizio, potrai vivere l’esperienza della nascita con serenità e consapevolezza, sapendo di poter contare su un’assistenza continua e personalizzata in ogni fase del percorso.</p>
+          <div class="d-flex">
+            <a href="https://ostetricasilviabuzzoni.simplybook.it/v2/#book/service/9/count/1/" target="_blank" class="btn btn-accordion mx-3">Prenota visita</a>
+            <a href="https://wa.me/3331676725" class="btn btn-accordion mx-3">Contattami</a>
+          </div>
         </div>
       </div>
     </div>

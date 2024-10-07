@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Ostetrica Silvia Buzzoni</title>
@@ -37,48 +40,40 @@
     <div class="container-fluid d-flex flex-column align-items-center p-2 p-lg-5">
       <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 150px; height: 150px;">
-        </div>
-        <div class="col-lg-4 text-center">
-          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text">Sono nata il 10 Settembre del 1995 da quello che oggi in ostetricia definiremmo un VBAC (vaginal birth after cesarean). Una scelta davvero all'avanguardia per gli anni '90!<br> All'età di 15 anni, entrando per la prima volta in un consultorio, sono venuta a conoscenza della figura professionale dell'ostetrica. Una donna per le donne... qualcosa iniziò a farsi spazio nella mia testa.</p>
         </div>
         <div class="col-lg-4 text-center">
           <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 150px; height: 150px;">
-        </div>
-      </div>
-      <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
-        <div class="col-lg-4 text-center">
-          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.</p>
+            style="width: 200px; height: 200px;">
         </div>
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 150px; height: 150px;">
-        </div>
-        <div class="col-lg-4 text-center">
-          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text">Mi sono laureata in Ostetricia presso l'Università di Ferrara nell'ottobre 2018. Durante l'università, l'esperienza in ospedale era prevalentemente legata alla sala parto e alla degenza, ma sentivo la mancanza di una formazione completa che mi permettesse di assistere le donne in tutte le fasi della gravidanza e del puerperio. È stata la formazione post-laurea a darmi le competenze necessarie per diventare l'ostetrica che sono oggi.</p>
         </div>
       </div>
       <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
         <div class="col-lg-4 text-center">
           <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 150px; height: 150px;">
+            style="width: 200px; height: 200px;">
         </div>
         <div class="col-lg-4 text-center">
-          <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text">Ho aperto la partita iva poco più di un anno dopo, muovendo i primi passi nelle case, tra visite post parto e consulenze allattamento. In pochi mesi, ho creato uno spazio ostetrico dove poter seguire le gravidanze e occuparmi della salute del pavimento pelvico delle mie pazienti.
+          </p>
         </div>
         <div class="col-lg-4 text-center">
           <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 150px; height: 150px;">
+            style="width: 200px; height: 200px;">
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
+        <div class="col-lg-4 text-center">
+          <p class="text">Nel 2022 ho iniziato ad affiancare alcune colleghe esperte nella nascita a casa, toccando con mano il meraviglioso mondo dell'assistenza al parto extra ospedaliero. Nel frattempo ho iniziato ad assistere i miei primi travagli a domicilio, accompagnando in sala parto le donne che sceglievano l'ospedale per dare alla luce i propri bambini. Il mio obiettivo era garantire alle mie assistite la continuità assistenziale, in qualsiasi luogo desiderassero partorire.</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
+            style="width: 200px; height: 200px;">
+        </div>
+        <div class="col-lg-4 text-center">
+          <p class="text">Oggi mi definisco un'ostetrica salutogenica. Lavoro ogni giorno in prevenzione, per implementare il potenziale di salute che risiede nelle mie assistite. La formazione annuale in SEAO mi ha guidata alla scoperta dell'arte ostetrica, permettendomi al contempo di offrire un'assistenza centrata unicamente sui bisogni delle donne. Un'assistenza priva di giudizio al sostegno delle loro scelte consapevoli.</p>
         </div>
       </div>
     </div>
@@ -104,10 +99,8 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p class="text">Descrizione dei servizi offerti durante la gravidanza. Offriamo consulenze,
-                    monitoraggi e
-                    assistenza pre-natale.</p>
+                <div class="d-flex flex-column align-items-center align-items-lg-start accordion-body">
+                  <p class="text">Sapevi che l'ostetrica è la figura professionale più indicata per assistere la gravidanza?</p>
                   <a href="https://ostetricasilviabuzzoni.it/servizi-in-gravidanza" class="btn btn-accordion">Scopri di più</a>
                 </div>
               </div>
@@ -123,10 +116,8 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p class="text">Descrizione dei servizi per il travaglio e il parto, incluse le tecniche di gestione
-                    del dolore e
-                    il supporto clinico.</p>
+                <div class="d-flex flex-column align-items-center align-items-lg-start accordion-body">
+                  <p class="text">La stessa ostetrica come punto di riferimento per la tua gravidanza, il tuo parto ed il tuo post parto. Scopri tutti i benefici della continuità assistenziale nel tuo percorso.</p>
                   <a href="https://ostetricasilviabuzzoni.it/travaglio-e-parto" class="btn btn-accordion">Scopri di più</a>
                 </div>
               </div>
@@ -142,10 +133,8 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p class="text">Descrizione dei servizi post-parto, incluse consulenze sull'allattamento e il recupero
-                    fisico della
-                    mamma.</p>
+                <div class="d-flex flex-column align-items-center align-items-lg-start accordion-body">
+                  <p class="text">Fin troppo spesso dopo la nascita la donna sperimenta un gran senso di solitudine. L'ostetrica è al suo fianco per il supporto dell'allattamento e non solo in questa delicatissima fase.</p>
                   <a href="https://ostetricasilviabuzzoni.it/post-parto" class="btn btn-accordion">Scopri di più</a>
                 </div>
               </div>
@@ -161,9 +150,8 @@
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p class="text">Descrizione dei servizi per ogni fase della vita della donna, dalla pubertà alla
-                    menopausa.</p>
+                <div class="d-flex flex-column align-items-center align-items-lg-start accordion-body">
+                  <p class="text">A disposizione di ogni donna, dalla pubertà alla menopausa, per aiutarla a conoscere il proprio pavimento pelvico al fine di renderlo un prezioso alleato per tutta la vita. </p>
                   <a href="https://ostetricasilviabuzzoni.it/per-le-donne" class="btn btn-accordion">Scopri di più</a>
                 </div>
               </div>
@@ -185,9 +173,7 @@
         <img src="assets/img/domicilio.jpg" alt="Image 1" class="img-fluid domicilio-img">
       </div>
       <div class="d-flex justify-content-center">
-        <p class="text-dove p-4 p-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-          galley of type and scrambled it to make a type specimen book.</p>
+        <p class="text-dove p-4 p-lg-5">Parte del mio lavoro si svolge nelle case delle donne che assisto. In particolar modo nell'assistenza al travaglio ed al parto, o in occasione delle consulenze per l'allattamento. Molte coppie si trovano spaesate in seguito alla dimissione ospedaliera: accogliere la propria ostetrica tra le mura domestiche significa ricevere un'assistenza professionale tempestiva e compatibile ai nuovi ritmi familiari.</p>
       </div>
     </div>
     </div>
@@ -200,16 +186,7 @@
         <img src="assets/img/domicilio.jpg" alt="Image 1" class="img-fluid domicilio-img">
       </div>
       <div class="d-flex justify-content-center">
-        <p class="text-dove p-4 p-lg-5 pb-lg-1">- Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-          galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-      <div class="d-flex justify-content-center">
-        <p class="text-dove p-4 p-lg-5 pt-lg-1">- Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-          galley of type and scrambled it to make a type specimen book.</p>
+        <p class="text-dove p-4 p-lg-5 pb-lg-1">Ho cercato di rendere il mio spazio ostetrico un luogo accogliente per le donne e per le famiglie che assisto. Uno spazio sicuro in cui lavorare partendo dall'ascolto della paziente, che si tratti di percorsi in gravidanza o di cura del pavimento pelvico. Ricevo le mie pazienti in due ambulatori, uno a Ferrara e l'altro a Portomaggiore: </p>
       </div>
     </div>
     </div>
@@ -221,6 +198,7 @@
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.17069657456!2d11.661939799999999!3d44.838457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4f99a3816739%3A0xdad6577ba44b293b!2sOstetrica%20Silvia%20Buzzoni!5e0!3m2!1sit!2sit!4v1727279313656!5m2!1sit!2sit"
               class="map" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <a href="https://www.google.com/maps/place/Ostetrica+Silvia+Buzzoni/@44.8381261,11.6614357,17z/data=!4m6!3m5!1s0x477e4f99a3816739:0xdad6577ba44b293b!8m2!3d44.838457!4d11.6619398!16s%2Fg%2F11sgdqz5d3?hl=it&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-dove text-center address">via Pioppa 176, Ferrara</a>
           </div>
         </div>
         <div class="col-md-6">
@@ -229,6 +207,7 @@
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.188673763629!2d11.80505367657397!3d44.695346784407796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e400d463fac8d%3A0xfc68f9609bfa208a!2sFisiosport%20S.A.S.%20Di%20Dinardo%20Paolo%20%26%20C.!5e0!3m2!1sit!2sit!4v1727279428010!5m2!1sit!2sit"
               class="map" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <a href="https://www.google.com/maps/place/Fisiosport+S.A.S.+Di+Dinardo+Paolo+%26+C./@44.695343,11.807629,16z/data=!4m6!3m5!1s0x477e400d463fac8d:0xfc68f9609bfa208a!8m2!3d44.695343!4d11.8076286!16s%2Fg%2F11h58m590w?hl=it&entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-dove text-center address">via Fausto Beretta 43, Portomaggiore</a>
           </div>
         </div>
       </div>

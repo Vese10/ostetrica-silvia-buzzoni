@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,7 +35,7 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">L’assistenza al parto a domicilio è un servizio pensato per le donne che desiderano vivere il momento del parto nell’intimità e nel comfort della propria casa. Questo percorso è ideale per chi cerca un’esperienza più naturale e personalizzata, circondata dall’ambiente familiare e con il supporto costante di due ostetriche qualificate.<br>Dalla fase prodromica fino al momento del parto, seremo al tuo fianco per monitorare l’andamento del travaglio e garantire che tutto proceda in sicurezza. Grazie alla nostra formazione e alla nostra esperienza, possiamo gestire ogni fase del parto e rispondere tempestivamente a ogni esigenza, sempre pronte a trasferirci in ospedale nel caso in cui si renda necessario.<br>Il parto a domicilio ti permette di scegliere le modalità e il ritmo del tuo travaglio, rispettando i tempi del tuo corpo e del tuo bambino, senza le interferenze tipiche di un ambiente ospedaliero. Dopo la nascita, resteremo accanto a te per monitorare il benessere del neonato, sostenerti nell’avvio dell’allattamento e assicurarci che entrambi riceviate l’attenzione e il supporto necessari nelle prime ore di vita del bambino.<br>Con l’assistenza al parto a domicilio, avrai l’opportunità di vivere il parto in modo più intimo e consapevole, con la sicurezza di un’assistenza professionale e dedicata.</p>
           <a href="https://wa.me/3331676725" class="btn btn-accordion">Contattami</a>
         </div>
       </div>

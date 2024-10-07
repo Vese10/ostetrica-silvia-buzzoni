@@ -1,6 +1,11 @@
 <style>
-    .hidden { display: none; }
-    .error { color: red; }
+    .hidden {
+        display: none;
+    }
+
+    .error {
+        color: red;
+    }
 </style>
 <div id="form-container">
     <form class="form" action="send_mail.php" id="contact-form">
@@ -20,7 +25,9 @@
             <input type="checkbox" class="form-check-input" name="privacy" id="privacy" required>
             <label class="form-check-label" for="privacy">Acconsento al trattamento dei dati a norma del Regolamento UE 2016/679.<a class="privacy-link" href="privacy-policy.php">Informativa completa.</a> *</label>
         </div>
-        <button type="submit" class="btn btn-block btn-info-contact btn-accordion">Invia richiesta</button>
+        <div class="form-group m-3 px-4 px-lg-0 px-4 px-lg-0">
+            <button type="submit" class="btn btn-block btn-info-contact btn-accordion">Invia richiesta</button>
+        </div>
         <div id="error-message" class="error hidden">Tutti i campi sono obbligatori e la privacy deve essere accettata.</div>
     </form>
 </div>

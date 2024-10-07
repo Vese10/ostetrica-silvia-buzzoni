@@ -70,7 +70,7 @@ if ($pageName == "index.php") {
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/consulenza-allattamento">Consulenza allattamento</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/visita-post-parto">Visita ostetrica nel post parto</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/acquaticita-neonatale">Acquaticità neonatale</a></li>
-                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento">Corso di gruppo sullo svezzamento</a></li>
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento">Corso di gruppo Svezzamento e Disostruzione</a></li>
               </ul>
             </li>
             <!-- Servizi in tutte le fasi di vita della donna -->
@@ -93,7 +93,7 @@ if ($pageName == "index.php") {
       <!-- Pulsanti Tariffario e Prenota -->
       <ul class="navbar-nav">
         <li class="nav-item btn-item">
-          <a class="btn bg-light me-5 mb-2 mb-lg-0 btn-app" href="#prenota-appuntamento">Prenota Appuntamento</a>
+          <a class="btn bg-light me-5 mb-2 mb-lg-0 btn-app" href="https://ostetricasilviabuzzoni.simplybook.it/v2/" target="_blank">Prenota Appuntamento</a>
         </li>
       </ul>
     </div>

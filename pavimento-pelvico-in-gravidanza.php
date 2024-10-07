@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,8 +35,8 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a href="#" class="btn btn-accordion">Prenota visita</a>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">Durante la gravidanza, il pavimento pelvico gioca un ruolo essenziale nel supportare il peso del bambino e nella preparazione al parto. La valutazione del pavimento pelvico in gravidanza è un esame delicato e specifico che permette di monitorare lo stato di salute di questi muscoli, identificare eventuali debolezze o tensioni e prevenire disturbi come l’incontinenza o il prolasso.<br>Attraverso tecniche di palpazione e osservazione, ti aiuterò a prendere consapevolezza del tuo pavimento pelvico e ti fornirò esercizi personalizzati per rafforzarlo o rilassarlo, a seconda delle tue necessità. Questo percorso ti permetterà di affrontare il parto e il post-partum con maggiore sicurezza e benessere.</p>
+          <a href="https://ostetricasilviabuzzoni.simplybook.it/v2/#book/service/8/count/1/" target="_blank" class="btn btn-accordion">Prenota visita</a>
         </div>
       </div>
     </div>

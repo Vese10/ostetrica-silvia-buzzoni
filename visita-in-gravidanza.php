@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,8 +35,8 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <a href="#" class="btn btn-accordion">Prenota visita</a>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">La visita in gravidanza è un momento fondamentale per monitorare il benessere della mamma e del bambino durante tutto il percorso gestazionale. Durante l’incontro in studio, effettueremo un controllo accurato dello sviluppo fetale, valuteremo i parametri vitali della mamma e parleremo insieme dei cambiamenti fisici ed emotivi che caratterizzano ogni fase della gravidanza.<br>Oltre agli aspetti medici, dedicherò del tempo a rispondere alle tue domande e a fornirti consigli personalizzati su alimentazione, attività fisica e preparazione al parto. La mia priorità è offrirti un’assistenza completa e attenta, per vivere la tua gravidanza con serenità e consapevolezza.</p>
+          <a href="https://ostetricasilviabuzzoni.simplybook.it/v2/#book/service/2/count/1/" target="_blank" class="btn btn-accordion">Prenota visita</a>
         </div>
       </div>
     </div>

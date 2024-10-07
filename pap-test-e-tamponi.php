@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,7 +35,12 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <div class=" p-4 p-lg-5 m-0 m-lg-5">
+            <p class="text">Il Pap-test e i tamponi vaginali e pelvico-vaginali sono esami fondamentali per la prevenzione e la diagnosi precoce di infezioni e patologie che possono interessare l’apparato genitale femminile. Questi esami, eseguiti con delicatezza e professionalità, ti permettono di monitorare la tua salute intima in modo regolare e sicuro.</p>
+            <p class="text"><strong>Pap-test</strong><br>Il Pap-test è un esame di screening utilizzato per rilevare la presenza di eventuali cellule anomale o pre-cancerose nella cervice uterina. Questo semplice prelievo di cellule è consigliato a tutte le donne come strumento di prevenzione contro il cancro cervicale, ed è indolore e rapido. Il Pap-test può essere effettuato durante i controlli periodici di routine.</p>
+            <p class="text"><strong>Tamponi vaginali e pelvico-vaginali</strong><br>I tamponi vaginali e pelvico-vaginali sono esami utili per diagnosticare infezioni vaginali o del tratto riproduttivo, come vaginiti batteriche, candidosi o altre infezioni sessualmente trasmissibili. Attraverso un campione prelevato in modo rapido e delicato, è possibile identificare eventuali alterazioni nella flora vaginale o la presenza di agenti patogeni.</p>
+            <p class="text">Questi esami rappresentano una parte essenziale della prevenzione e del mantenimento della salute ginecologica, e ti offrono la tranquillità di un controllo regolare e completo del tuo benessere intimo.</p>
+          </div>
           <a href="#" class="btn btn-accordion">Prenota visita</a>
         </div>
       </div>

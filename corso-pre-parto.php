@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -32,7 +35,7 @@
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
-          <p class="text p-4 p-lg-5 m-0 m-lg-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="text p-4 p-lg-5 m-0 m-lg-5">Il corso pre parto è un percorso fondamentale per prepararsi al meglio all’arrivo del proprio bambino. Attraverso una serie di incontri, affronteremo insieme tutti gli aspetti legati alla gravidanza, al parto e al post-partum, offrendo informazioni pratiche e supporto emotivo per vivere con serenità e consapevolezza questa esperienza unica.<br>Durante il corso, esploreremo le fasi del travaglio e del parto, le tecniche di respirazione e rilassamento, le posizioni che possono facilitare il parto naturale e la gestione del dolore. Dedicheremo inoltre uno spazio importante all’allattamento e alla cura del neonato nei primi giorni di vita.<br>Il corso pre parto è un’occasione per creare una rete di sostegno tra futturi genitori, condividere esperienze e domande, e affrontare insieme eventuali dubbi o preoccupazioni. La mia missione è offrirvi gli strumenti per sentirvi pronti e sicuri, sia fisicamente che emotivamente, per l’arrivo del vostro bambino.</p>
           <div class="d-flex">
             <a href="https://wa.me/3331676725" class="btn btn-accordion mx-3">Contattami</a>
             <a href="assets/pdf/info-corso-pre-parto.pdf" download="info-corso-pre-parto.pdf" class="btn btn-accordion mx-3">Scarica pdf informativo</a>

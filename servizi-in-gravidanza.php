@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
   <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
   <title>Servizi - Ostetrica Silvia Buzzoni</title>
@@ -48,7 +51,7 @@
         <!-- Seconda riga con 2 elementi distribuiti equamente -->
         <div class="col-12 col-md-4 offset-md-2 mb-3 d-flex justify-content-center fourth">
           <a href="https://ostetricasilviabuzzoni.it/visita-in-gravidanza" class="gvg">
-            Visita in gravidanza 
+            Visita in gravidanza
           </a>
         </div>
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center fifth">
