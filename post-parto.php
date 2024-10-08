@@ -34,30 +34,32 @@
       <div class="row text-center w-100 mt-4">
         <!-- Prima riga con 3 elementi distribuiti equamente -->
         <div class="col-12 col-md-6 mb-3 d-flex justify-content-center first">
-          <a href="https://ostetricasilviabuzzoni.it/consulenza-allattamento" class="gcpp">
+          <a href="https://ostetricasilviabuzzoni.it/consulenza-allattamento" class="allattamento">
             Allattamento
           </a>
         </div>
         <div class="col-12 col-md-6 mb-3 d-flex justify-content-center second">
-          <a href="https://ostetricasilviabuzzoni.it/visita-post-parto" class="gco">
-            Visita Ostetrica
+          <a href="https://ostetricasilviabuzzoni.it/visita-post-parto" class="visita-post">
+            Visita a Domicilio
           </a>
         </div>
 
         <!-- Seconda riga con 2 elementi distribuiti equamente -->
         <div class="col-12 col-md-6 mb-3 d-flex justify-content-center third">
-          <a href="https://ostetricasilviabuzzoni.it/acquaticita-neonatale" class="gvg">
+          <a href="https://ostetricasilviabuzzoni.it/acquaticita-neonatale" class="acquaticita-post">
             Acquaticità Neonatale
           </a>
         </div>
         <div class="col-12 col-md-6 mb-3 d-flex justify-content-center fourth">
-          <a href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento" class="ga">
+          <a href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento" class="svezzamento">
             Corso Svezzamento
           </a>
         </div>
       </div>
     </div>
   </section>
+
+  <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>
 
@@ -66,6 +68,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>

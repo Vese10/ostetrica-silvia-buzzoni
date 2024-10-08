@@ -23,11 +23,19 @@
   background-color: var(--bgCta) !important;
 }
 
+.logo-immagine {
+  padding: 10px;
+}
+
+.logo-scritta {
+  padding: 10px;
+}
+
 .navbar-toggler {
   border: none !important;
 }
 
-.navbar-toggler:focus, 
+.navbar-toggler:focus,
 .navbar-toggler:active {
   box-shadow: none;
 }
@@ -38,7 +46,8 @@
 
 .navbar-toggler.open .navbar-toggler-icon {
   transform: rotate(90deg);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba%2833, 37, 41, 0.75%29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E"); /* Simbolo della X */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='rgba%2833, 37, 41, 0.75%29' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E");
+  /* Simbolo della X */
 }
 
 .navbar-cont {
@@ -99,6 +108,7 @@
   font-size: 40px;
   font-weight: 700;
   color: var(--main);
+  text-shadow: 2px 2px 4px black;
 }
 
 .btn-servizi {
@@ -210,7 +220,19 @@
   object-fit: cover;
 }
 
+.studio-img {
+  max-height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
 .visita-grav-img {
+  max-height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.allattamento-img {
   max-height: 40vh;
   width: 100%;
   object-fit: cover;
@@ -230,6 +252,10 @@
 
 .map {
   border-radius: 20px;
+}
+
+.pool {
+  color: var(--main);
 }
 
 .address {
@@ -320,11 +346,15 @@ ul {
 }
 
 
-.gcpp,
-.gco,
-.gpp,
-.gvg,
-.ga {
+.corso-pre-parto,
+.consulenza-ostetrica,
+.pavimento-pelvico-grav,
+.visita-in-gravidanza,
+.acquaticita-grav,
+.allattamento,
+.visita-post,
+.acquaticita-post,
+.svezzamento {
   height: 350px;
   font-size: 50px;
   font-weight: 700;
@@ -340,33 +370,63 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-shadow: 2px 2px 4px black;
 }
 
-.gcpp {
-  background-image: url(../img/corso-pre-parto.jpg);
+.corso-pre-parto {
+  background-image: url(../img/corso-preparto-colori.jpg);
+  background-position: center;
 }
 
-.gco {
-  background-image: url(../img/consulenza-ostetrica.jpg);
+.consulenza-ostetrica {
+  background-image: url(../img/consulenza-grav-colori.jpg);
+  background-position: calc(100% - -70px) center;
 }
 
-.gpp {
-  background-image: url(../img/pavimento-pelvico.jpg);
+.pavimento-pelvico-grav {
+  background-image: url(../img/pav-pelvico-grav-colori.jpg);
+  background-position: calc(100% - -70px) center;
 }
 
-.gvg {
-  background-image: url(../img/visita-in-gravidanza.jpg);
+.visita-in-gravidanza {
+  background-image: url(../img/visita-grav-colori.jpg);
+  background-position: calc(50% - -20px) center;
 }
 
-.ga {
-  background-image: url(../img/acquaticita.jpg);
+.acquaticita-grav {
+  background-image: url(../img/acquaticita-grav-colori.jpg);
 }
 
-.gcpp:hover,
-.gco:hover,
-.gpp:hover,
-.gvg:hover,
-.ga:hover {
+.allattamento {
+  background-image: url(../img/allattamento.jpg);
+  background-position: center;
+}
+
+.visita-post {
+  background-image: url(../img/visita-post.jpg);
+  background-position: calc(50% - -40px) center;
+}
+
+.acquaticita-post {
+  background-image: url(../img/acquaticita-nati-colori.jpg);
+  background-position: center;
+}
+
+.svezzamento {
+  background-image: url(../img/svezzamento.jpg);
+  background-position: center;
+}
+
+
+.corso-pre-parto:hover,
+.consulenza-ostetrica:hover,
+.pavimento-pelvico-grav:hover,
+.visita-in-gravidanza:hover,
+.acquaticita-grav:hover,
+.allattamento:hover,
+.visita-post:hover,
+.acquaticita-post:hover,
+.svezzamento:hover {
   transform: scale(1.1);
 }
 
@@ -390,6 +450,19 @@ ul {
     height: 500px !important;
   }
 
+  .domicilio-img {
+    max-height: 35vh;
+  }
+
+  .studio-img {
+    max-height: 35vh;
+    object-position: 0 -250px;
+  }
+
+  .allattamento-img {
+    object-position: center calc(50% - -100px);
+  }
+
 }
 
 
@@ -409,6 +482,14 @@ ul {
     font-size: 18px;
     font-weight: 500;
     color: var(--main);
+  }
+
+  .img-scritta-mobile-cont {
+    width: 50%;
+  }
+
+  .img-scritta-mobile {
+    width: 100%;
   }
 
   /* First Section */
@@ -476,11 +557,15 @@ ul {
   }
 
   /* Gravidanza Section */
-  .gcpp,
-  .gco,
-  .gpp,
-  .gvg,
-  .ga {
+  .corso-pre-parto,
+  .consulenza-ostetrica,
+  .pavimento-pelvico-grav,
+  .visita-in-gravidanza,
+  .acquaticita-grav,
+  .allattamento,
+  .visita-post,
+  .acquaticita-post,
+  .svezzamento {
     height: 200px;
     font-size: 25px;
     font-weight: 700;

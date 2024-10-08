@@ -11,7 +11,7 @@ if ($pageName == "index.php") {
   <div class="container-fluid navbar-cont">
     <!-- Logo desktop -->
     <a class="navbar-brand ms-3 d-none d-xl-flex align-items-center" href="https://ostetricasilviabuzzoni.it/">
-      <img src="../assets/img/logo-immagine.png" alt="Logo Ostetrica Silvia Buzzoni"> <!-- Logo aziendale -->
+      <img src="../assets/img/logo-immagine.png" alt="Logo Ostetrica Silvia Buzzoni" class="logo-immagine"> <!-- Logo aziendale -->
       <img src="../assets/img/logo-scritta.png" alt="Scritta Ostetrica Silvia Buzzoni" class="ms-2 logo-scritta">
       <!-- Seconda immagine -->
     </a>
@@ -19,7 +19,11 @@ if ($pageName == "index.php") {
 
     <!-- Logo mobile -->
     <a class="navbar-brand d-xl-none" href="https://ostetricasilviabuzzoni.it/">
-      <img src="../assets/img/favicon.png" alt="Logo Mobile Ostetrica Silvia Buzzoni">
+      <img src="../assets/img/logo-immagine.png" alt="Logo Mobile Ostetrica Silvia Buzzoni">
+    </a>
+
+    <a class="navbar-brand d-xl-none img-scritta-mobile-cont" href="https://ostetricasilviabuzzoni.it/">
+      <img src="../assets/img/logo-scritta.png" class="img-scritta-mobile" alt="Logo Mobile Ostetrica Silvia Buzzoni">
     </a>
 
     <!-- Bottone mobile -->

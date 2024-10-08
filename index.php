@@ -43,8 +43,7 @@
           <p class="text">Sono nata il 10 Settembre del 1995 da quello che oggi in ostetricia definiremmo un VBAC (vaginal birth after cesarean). Una scelta davvero all'avanguardia per gli anni '90!<br> All'età di 15 anni, entrando per la prima volta in un consultorio, sono venuta a conoscenza della figura professionale dell'ostetrica. Una donna per le donne... qualcosa iniziò a farsi spazio nella mia testa.</p>
         </div>
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 200px; height: 200px;">
+          <img src="assets/img/laurea-rounded.png" alt="Image 1" class="img-fluid">
         </div>
         <div class="col-lg-4 text-center">
           <p class="text">Mi sono laureata in Ostetricia presso l'Università di Ferrara nell'ottobre 2018. Durante l'università, l'esperienza in ospedale era prevalentemente legata alla sala parto e alla degenza, ma sentivo la mancanza di una formazione completa che mi permettesse di assistere le donne in tutte le fasi della gravidanza e del puerperio. È stata la formazione post-laurea a darmi le competenze necessarie per diventare l'ostetrica che sono oggi.</p>
@@ -52,16 +51,14 @@
       </div>
       <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 200px; height: 200px;">
+          <img src="assets/img/battito.jpg" alt="Image 1" class="img-fluid">
         </div>
         <div class="col-lg-4 text-center">
           <p class="text">Ho aperto la partita iva poco più di un anno dopo, muovendo i primi passi nelle case, tra visite post parto e consulenze allattamento. In pochi mesi, ho creato uno spazio ostetrico dove poter seguire le gravidanze e occuparmi della salute del pavimento pelvico delle mie pazienti.
           </p>
         </div>
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 200px; height: 200px;">
+          <img src="assets/img/strumenti.png" alt="Image 1" class="img-fluid">
         </div>
       </div>
       <div class="row align-items-center justify-content-center py-0 p-2 p-lg-5">
@@ -69,8 +66,7 @@
           <p class="text">Nel 2022 ho iniziato ad affiancare alcune colleghe esperte nella nascita a casa, toccando con mano il meraviglioso mondo dell'assistenza al parto extra ospedaliero. Nel frattempo ho iniziato ad assistere i miei primi travagli a domicilio, accompagnando in sala parto le donne che sceglievano l'ospedale per dare alla luce i propri bambini. Il mio obiettivo era garantire alle mie assistite la continuità assistenziale, in qualsiasi luogo desiderassero partorire.</p>
         </div>
         <div class="col-lg-4 text-center">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="rounded-circle img-fluid"
-            style="width: 200px; height: 200px;">
+          <img src="assets/img/studio.jpg" alt="Image 1" class="img-fluid">
         </div>
         <div class="col-lg-4 text-center">
           <p class="text">Oggi mi definisco un'ostetrica salutogenica. Lavoro ogni giorno in prevenzione, per implementare il potenziale di salute che risiede nelle mie assistite. La formazione annuale in SEAO mi ha guidata alla scoperta dell'arte ostetrica, permettendomi al contempo di offrire un'assistenza centrata unicamente sui bisogni delle donne. Un'assistenza priva di giudizio al sostegno delle loro scelte consapevoli.</p>
@@ -84,7 +80,8 @@
     <div class="container-fluid d-flex flex-column align-items-center p-0 p-lg-5 accordin-container">
       <div class="row justify-content-center p-0 p-lg-5">
         <div class="col-lg-6 text-center p-0 p-lg-3 order-lg-1 order-2">
-          <img src="assets/img/chi-sono-img.png" alt="Image 1" class="img-fluid third-img">
+          <img src="assets/img/i-miei-servizi.jpg" alt="Image 1" class="img-fluid third-img d-lg-none">
+          <img src="assets/img/i-miei-servizi-desktop.jpg" alt="Image 1" class="img-fluid third-img d-none d-lg-flex">
         </div>
         <div class="col-lg-6 text-center p-0 p-lg-3 order-lg-2 order-1 custom-accordion">
           <div class="accordion mt-3 mt-lg-0" id="accordionExample">
@@ -170,7 +167,7 @@
         <h3 class="sub-title text-center p-2">A domicilio:</h3>
       </div>
       <div class="domicilio-cont ">
-        <img src="assets/img/domicilio.jpg" alt="Image 1" class="img-fluid domicilio-img">
+        <img src="assets/img/fiocco.jpg" alt="Image 1" class="img-fluid domicilio-img">
       </div>
       <div class="d-flex justify-content-center">
         <p class="text-dove p-4 p-lg-5">Parte del mio lavoro si svolge nelle case delle donne che assisto. In particolar modo nell'assistenza al travaglio ed al parto, o in occasione delle consulenze per l'allattamento. Molte coppie si trovano spaesate in seguito alla dimissione ospedaliera: accogliere la propria ostetrica tra le mura domestiche significa ricevere un'assistenza professionale tempestiva e compatibile ai nuovi ritmi familiari.</p>
@@ -183,7 +180,7 @@
         <h3 class="sub-title text-center p-2">In studio:</h3>
       </div>
       <div class="domicilio-cont">
-        <img src="assets/img/domicilio.jpg" alt="Image 1" class="img-fluid domicilio-img">
+        <img src="assets/img/ambulatorio.jpg" alt="Image 1" class="img-fluid studio-img">
       </div>
       <div class="d-flex justify-content-center">
         <p class="text-dove p-4 p-lg-5 pb-lg-1">Ho cercato di rendere il mio spazio ostetrico un luogo accogliente per le donne e per le famiglie che assisto. Uno spazio sicuro in cui lavorare partendo dall'ascolto della paziente, che si tratti di percorsi in gravidanza o di cura del pavimento pelvico. Ricevo le mie pazienti in due ambulatori, uno a Ferrara e l'altro a Portomaggiore: </p>
@@ -194,7 +191,7 @@
       <div class="row">
         <div class="col-md-6">
           <h3 class="sub-title text-center mt-4 mt-lg-0">Ferrara:</h3>
-          <div class="map-container">
+          <div class="map-container text-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.17069657456!2d11.661939799999999!3d44.838457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4f99a3816739%3A0xdad6577ba44b293b!2sOstetrica%20Silvia%20Buzzoni!5e0!3m2!1sit!2sit!4v1727279313656!5m2!1sit!2sit"
               class="map" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -203,7 +200,7 @@
         </div>
         <div class="col-md-6">
           <h3 class="sub-title text-center mt-4 mt-lg-0">Portomaggiore:</h3>
-          <div class="map-container">
+          <div class="map-container text-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.188673763629!2d11.80505367657397!3d44.695346784407796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e400d463fac8d%3A0xfc68f9609bfa208a!2sFisiosport%20S.A.S.%20Di%20Dinardo%20Paolo%20%26%20C.!5e0!3m2!1sit!2sit!4v1727279428010!5m2!1sit!2sit"
               class="map" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -214,33 +211,7 @@
     </div>
   </section>
 
-  <section class="container-fluid d-flex flex-column align-items-center p-2 p-lg-5 fifth-section" id="fifth-section">
-    <h2 class="title text-center mt-lg-0 mt-5">Contatti</h2>
-    <h3 class="sub-title text-center mt-lg-0 mt-2 px-4">Per informazioni, collaborazioni o altro non esitare a contattarmi</h3>
-    <div class="container-fluid d-flex flex-column align-items-center p-0 p-lg-5 accordin-container">
-      <div class="row justify-content-center p-0 p-lg-5">
-        <div class="col-lg-6 text-center p-0 p-lg-3">
-          <?php include 'modules/contact-form/contact-form.php' ?>
-        </div>
-        <div class="col-lg-6 d-flex justify-content-center text-center p-0 p-lg-3 pt-2 custom-accordion">
-          <div class="social-contacts mt-3 mt-lg-0">
-            <div class="d-flex flex-row align-items-center justify-content-start my-3 social">
-              <img src="assets/img/whatsapp.svg" class="social-img" alt="WhatsApp Logo" style="width: 50px;">
-              <a href="https://wa.me/3331676725" class="social-text p-2">+39 333 167 6725</a>
-            </div>
-            <div class="d-flex flex-row align-items-center justify-content-start my-3 my-lg-5 social">
-              <img src="assets/img/instagram.svg" class="social-img" alt="Instagram Logo" style="width: 50px;">
-              <a href="https://www.instagram.com/ostetricasilviabuzzoni/" class="social-text p-2">@ostetricasilviabuzzoni</a>
-            </div>
-            <div class="d-flex flex-row align-items-center justify-content-start my-3 my-lg-5 social">
-              <img src="assets/img/facebook.svg" class="social-img" alt="Facebook Logo" style="width: 50px;">
-              <a href="https://www.facebook.com/ostetricasilviabuzzoni/" class="social-text p-2">Dott.ssa Silvia Buzzoni Ostetrica</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>
 

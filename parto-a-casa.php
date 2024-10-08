@@ -42,6 +42,8 @@
     </div>
   </section>
 
+  <?php include 'include/contact.php'; ?>
+
   <?php include 'include/footer.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -49,6 +51,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>

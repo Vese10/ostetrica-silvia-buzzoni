@@ -33,17 +33,19 @@
     <div class="container d-flex align-items-center justify-content-center p-0 m-0">
       <div class="row text-center w-100 mt-4">
         <div class="col-12 col-md-6 mb-3 mt-md-5 d-flex justify-content-center first">
-          <a href="https://ostetricasilviabuzzoni.it/accompagnamento-in-ospedale" class="gcpp accompagnamento">
+          <a href="https://ostetricasilviabuzzoni.it/accompagnamento-in-ospedale" class="corso-pre-parto accompagnamento">
             Accompagnamento In Sala Parto
           </a>
         </div>
         <div class="col-12 col-md-6 mb-3 mt-md-5 d-flex justify-content-center second">
-          <a href="https://ostetricasilviabuzzoni.it/parto-a-casa" class="gco parto">
+          <a href="https://ostetricasilviabuzzoni.it/parto-a-casa" class="corso-pre-parto parto">
             Assistenza al Parto a Domicilio
           </a>
         </div>
       </div>
   </section>
+
+  <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>
 
@@ -52,6 +54,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>

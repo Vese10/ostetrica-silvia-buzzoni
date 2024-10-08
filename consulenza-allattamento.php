@@ -31,7 +31,7 @@
     <h2 class="title px-4 mt-5">Consulenza allattamento</h2>
     <div class="container-fluid d-flex flex-column p-0">
       <div class="domicilio-cont ">
-        <img src="assets/img/domicilio.jpg" alt="Image 1" class="img-fluid visita-grav-img">
+        <img src="assets/img/allattamento.jpg" alt="Image 1" class="img-fluid allattamento-img">
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
@@ -45,6 +45,8 @@
     </div>
   </section>
 
+  <?php include 'include/contact.php'; ?>
+
   <?php include 'include/footer.php'; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -52,6 +54,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>

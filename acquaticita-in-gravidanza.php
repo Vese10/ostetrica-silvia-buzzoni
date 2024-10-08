@@ -31,7 +31,7 @@
     <h2 class="title px-4 mt-5">Acquaticità in gravidanza</h2>
     <div class="container-fluid d-flex flex-column p-0">
       <div class="domicilio-cont ">
-        <img src="assets/img/acquaticita-colori.jpg" alt="Image 1" class="img-fluid visita-grav-img">
+        <img src="assets/img/acquaticita-grav-colori.jpg" alt="Image 1" class="img-fluid visita-grav-img">
       </div>
       <div class="row justify-content-center p-0">
         <div class="d-flex flex-column align-items-center mb-5 visit-cont">
@@ -39,8 +39,18 @@
           <a href="tel:+39053255535" class="btn btn-accordion">Contatta segreteria</a>
         </div>
       </div>
+      <div class="col-12">
+        <h3 class="sub-title text-center mt-4 mt-lg-0"><a href="https://www.google.com/maps/place/Palestra+%26+Piscina+Doro/@44.8478247,11.6027672,16z/data=!3m1!4b1!4m6!3m5!1s0x477e4de2dfb08d17:0x4f5524f7c560d5d1!8m2!3d44.8478247!4d11.6027672!16s%2Fg%2F11bbw_p292?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" class="pool">Piscina Doro, via Franceschini 9, Ferrara</a></h3>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5657.42139654055!2d11.602767199999999!3d44.8478247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4de2dfb08d17%3A0x4f5524f7c560d5d1!2sPalestra%20%26%20Piscina%20Doro!5e0!3m2!1sit!2sit!4v1728320701337!5m2!1sit!2sit"
+            class="map-pool" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
     </div>
   </section>
+
+  <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>
 
@@ -49,6 +59,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>

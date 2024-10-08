@@ -34,33 +34,35 @@
       <div class="row text-center w-100 mt-4">
         <!-- Prima riga con 3 elementi distribuiti equamente -->
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center first">
-          <a href="https://ostetricasilviabuzzoni.it/corso-pre-parto" class="gcpp">
+          <a href="https://ostetricasilviabuzzoni.it/corso-pre-parto" class="corso-pre-parto">
             Corso Pre Parto
           </a>
         </div>
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center second">
-          <a href="https://ostetricasilviabuzzoni.it/consulenza-in-gravidanza" class="gco">
+          <a href="https://ostetricasilviabuzzoni.it/consulenza-in-gravidanza" class="consulenza-ostetrica">
             Consulenza Ostetrica
           </a>
         </div>
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center third">
-          <a href="https://ostetricasilviabuzzoni.it/pavimento-pelvico-in-gravidanza" class="gpp">
+          <a href="https://ostetricasilviabuzzoni.it/pavimento-pelvico-in-gravidanza" class="pavimento-pelvico-grav">
             Pavimento Pelvico
           </a>
         </div>
         <!-- Seconda riga con 2 elementi distribuiti equamente -->
         <div class="col-12 col-md-4 offset-md-2 mb-3 d-flex justify-content-center fourth">
-          <a href="https://ostetricasilviabuzzoni.it/visita-in-gravidanza" class="gvg">
+          <a href="https://ostetricasilviabuzzoni.it/visita-in-gravidanza" class="visita-in-gravidanza">
             Visita in gravidanza
           </a>
         </div>
         <div class="col-12 col-md-4 mb-3 d-flex justify-content-center fifth">
-          <a href="https://ostetricasilviabuzzoni.it/acquaticita-in-gravidanza" class="ga">
+          <a href="https://ostetricasilviabuzzoni.it/acquaticita-in-gravidanza" class="acquaticita-grav">
             Acquaticità
           </a>
         </div>
       </div>
   </section>
+
+  <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>
 
@@ -69,6 +71,7 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/nav-drop-down.js"></script>
   <script src="assets/js/scrollToSection.js"></script>
+  <script src="modules/contact-form/contact-form.js"></script>
 </body>
 
 </html>
