@@ -1,27 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dottoressa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia.">
+    <meta property="og:title" content="Cookie Policy - Ostetrica Silvia Buzzoni">
+    <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia - Cookie Policy">
+    <meta property="og:image" content="https://ostetricasilviabuzzoni.it/assets/img/favicon.webp">
+    <meta property="og:url" content="https://ostetricasilviabuzzoni.it/cookie-policy">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    <meta name="description" content="Dottoressa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia - Cookie Policy">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <meta property="og:title" content="D.ssa Silvia Buzzoni - Ostetrica Libera Professionista">
-    <meta property="og:description" content="D.ssa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia">
-    <title>Servizi - Ostetrica Silvia Buzzoni</title>
-    <meta name="description" content="Dottoressa Silvia Buzzoni Ostetrica Libera Professionista a Ferrara e provincia.">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Cookie Policy - Ostetrica Silvia Buzzoni</title>
     <?php include 'modules/cookie-banner/cookie-banner.php'; ?>
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RH0YQGVRW"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1RH0YQGVRW');
+</script>
 
 <body>
 
@@ -59,7 +71,7 @@
         <p>Ci riserviamo il diritto di aggiornare questa Cookie Policy in qualsiasi momento. Le eventuali modifiche verranno pubblicate su questa pagina.</p>
 
         <h2>6. Contatti</h2>
-        <p>Per ulteriori informazioni riguardo l'uso dei cookie o questa Cookie Policy, puoi contattarci all'email: <strong>silvia.buzzoni1009@gmail.com</strong></p>
+        <p>Per ulteriori informazioni riguardo l'uso dei cookie o questa Cookie Policy, puoi contattarci all'email: <strong>info@ostetricasilviabuzzoni.it</strong></p>
     </div>
 
     <?php include 'include/footer.php'; ?>

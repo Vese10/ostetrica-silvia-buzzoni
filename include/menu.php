@@ -11,19 +11,19 @@ if ($pageName == "index.php") {
   <div class="container-fluid navbar-cont">
     <!-- Logo desktop -->
     <a class="navbar-brand ms-3 d-none d-xl-flex align-items-center" href="https://ostetricasilviabuzzoni.it/">
-      <img src="../assets/img/logo-immagine.png" alt="Logo Ostetrica Silvia Buzzoni" class="logo-immagine"> <!-- Logo aziendale -->
-      <img src="../assets/img/logo-scritta.png" alt="Scritta Ostetrica Silvia Buzzoni" class="ms-2 logo-scritta">
+      <img src="/assets/img/ostetrica-silvia-buzzoni-logo.webp" alt="Logo Ostetrica Silvia Buzzoni" class="logo-immagine"> <!-- Logo aziendale -->
+      <img src="/assets/img/ostetrica-silvia-buzzoni-logo-scritta.webp" alt="Scritta Ostetrica Silvia Buzzoni" class="ms-2 logo-scritta">
       <!-- Seconda immagine -->
     </a>
 
 
     <!-- Logo mobile -->
     <a class="navbar-brand d-xl-none" href="https://ostetricasilviabuzzoni.it/">
-      <img src="../assets/img/logo-immagine.png" alt="Logo Mobile Ostetrica Silvia Buzzoni">
+      <img src="/assets/img/ostetrica-silvia-buzzoni-logo.webp" alt="Logo Mobile Ostetrica Silvia Buzzoni">
     </a>
 
     <a class="navbar-brand d-xl-none img-scritta-mobile-cont" href="https://ostetricasilviabuzzoni.it/">
-      <img src="../assets/img/logo-scritta.png" class="img-scritta-mobile" alt="Logo Mobile Ostetrica Silvia Buzzoni">
+      <img src="/assets/img/ostetrica-silvia-buzzoni-logo-scritta.webp" class="img-scritta-mobile" alt="Logo Mobile Ostetrica Silvia Buzzoni">
     </a>
 
     <!-- Bottone mobile -->
@@ -51,18 +51,18 @@ if ($pageName == "index.php") {
             <!-- Servizi per la gravidanza -->
             <li class="dropdown-submenu">
               <a class="dropdown-item dropdown-toggle" href="https://ostetricasilviabuzzoni.it/servizi-in-gravidanza">Servizi per la gravidanza</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu sub">
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/visita-in-gravidanza">Visita in gravidanza</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/pavimento-pelvico-in-gravidanza">Valutazione pavimento pelvico</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/consulenza-in-gravidanza">Consulenza ostetrica</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/acquaticita-in-gravidanza">Acquaticità in gravidanza</a></li>
-                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-pre-parto">Corso pre parto</a></li>
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-pre-parto-ferrara">Corso pre parto</a></li>
               </ul>
             </li>
             <!-- Servizi per il travaglio ed il parto -->
             <li class="dropdown-submenu">
               <a class="dropdown-item dropdown-toggle" href="https://ostetricasilviabuzzoni.it/travaglio-e-parto">Servizi per il travaglio ed il parto</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu sub">
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/accompagnamento-in-ospedale">Accompagnamento in sala parto</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/parto-a-casa">Assistenza al parto a domicilio</a></li>
               </ul>
@@ -70,19 +70,27 @@ if ($pageName == "index.php") {
             <!-- Servizi nel post parto -->
             <li class="dropdown-submenu">
               <a class="dropdown-item dropdown-toggle" href="https://ostetricasilviabuzzoni.it/post-parto">Servizi nel post parto</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu sub">
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/consulenza-allattamento">Consulenza allattamento</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/visita-post-parto">Visita ostetrica nel post parto</a></li>
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/acquaticita-neonatale">Acquaticità neonatale</a></li>
-                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento">Corso di gruppo Svezzamento e Disostruzione</a></li>
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/corso-di-gruppo-svezzamento">Corso Svezzamento e Disostruzione</a></li>
               </ul>
             </li>
             <!-- Servizi in tutte le fasi di vita della donna -->
             <li class="dropdown-submenu">
               <a class="dropdown-item dropdown-toggle" href="https://ostetricasilviabuzzoni.it/per-le-donne">Servizi in tutte le fasi di vita della donna</a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu sub">
                 <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/riabilitazione-pavimento-pelvico">Riabilitazione pavimento pelvico</a></li>
-                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/pap-test-e-tamponi">Pap test, tamponi vaginali e cervico vaginali</a></li>
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/pap-test-e-tamponi">Pap test e tamponi</a></li>
+              </ul>
+            </li>
+            <!-- Regolo Digitale -->
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">Strumenti Ostetrici</a>
+              <ul class="dropdown-menu sub">
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/regolo">Regolo Ostetrico Digitale</a></li>
+                <li><a class="dropdown-item" href="https://ostetricasilviabuzzoni.it/calcolo-calo-fisiologico">Calcolo calo fisiologico</a></li>
               </ul>
             </li>
           </ul>
@@ -97,7 +105,7 @@ if ($pageName == "index.php") {
       <!-- Pulsanti Tariffario e Prenota -->
       <ul class="navbar-nav">
         <li class="nav-item btn-item">
-          <a class="btn bg-light me-5 mb-2 mb-lg-0 btn-app" href="https://ostetricasilviabuzzoni.simplybook.it/v2/" target="_blank">Prenota Appuntamento</a>
+          <a class="btn bg-light me-5 mb-2 mb-lg-0 btn-app" href="https://wa.me/393331676725?text=Salve,%20vorrei%20prenotare%20un%20appuntamento" target="_blank">Prenota Appuntamento</a>
         </li>
       </ul>
     </div>

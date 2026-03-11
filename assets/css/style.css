@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
+  font-display: swap;
 }
 
 :root {
@@ -11,10 +12,51 @@
   --gradient2: #ffffff;
 }
 
+/* Regolo Digitale Interattivo */
+
+.wheel-container {
+  position: relative;
+  width: 65vh;
+  height: 65vh;
+}
+
+.outer-circle,
+.inner-circle {
+  position: absolute;
+}
+
+.outer-circle {
+  width: 100%;
+  height: 100%;
+}
+
+.inner-circle {
+  width: 74%;
+  height: 74%;
+  cursor: pointer;
+}
+
+.flatpickr-input {
+  color: var(--main);
+  text-align: center;
+}
+
+/* reCaptcha */
+
+.g-recaptcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*MediaQuery*/
 /*schermo maxi */
 
 /* Navbar */
+#navbarNav {
+  overflow: hidden;
+}
+
 .navbar {
   height: 80px;
   position: sticky;
@@ -55,11 +97,16 @@
 }
 
 .navbar-brand img {
-  height: 80px;
+  height: 70px;
 }
 
 .dropdown-menu .dropdown-item {
   white-space: normal;
+}
+
+.dropdown-item {
+  color: var(--main);
+  font-size: 15px;
 }
 
 .dropdown-submenu {
@@ -77,6 +124,12 @@
   background-color: var(--bgCta);
 }
 
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn-info-contact {
   width: 100%;
 }
@@ -85,7 +138,7 @@
   background-color: var(--gradient2);
   color: var(--main);
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   transition: transform 0.3s ease-in-out;
 }
@@ -99,15 +152,16 @@
 
 .first-section {
   min-height: 92vh;
-  background-image: url(../img/first-section-background.jpg);
+  background-image: url(../img/ostetrica-silvia-buzzoni-ambulatorio-desktop.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .presentazione {
   font-size: 40px;
   font-weight: 700;
-  color: var(--main);
+  color: var(--bgCta);
   text-shadow: 2px 2px 4px black;
 }
 
@@ -135,6 +189,14 @@
   font-size: 35px;
   font-weight: 700;
   color: var(--main);
+  text-decoration: none;
+}
+
+.title-article {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--main);
+  text-decoration: none;
 }
 
 .text {
@@ -143,12 +205,14 @@
   color: var(--main);
   text-align: left;
   width: 90%;
+  text-decoration: none;
 }
 
 /* Third Section */
 .third-section {
   min-height: max-content;
   background: linear-gradient(180deg, #eacac5, #ffffff);
+  overflow: hidden;
 }
 
 .third-img {
@@ -165,17 +229,11 @@
   font-size: 20px;
   font-weight: 700;
   background-color: transparent;
-  transition: transform 0.3s ease-in-out;
-}
-
-.accordion-button:hover {
-  transform: scale(1.05);
 }
 
 .accordion-button:not(.collapsed) {
   color: var(--main);
   background-color: transparent;
-  transform: scale(1.05);
 }
 
 .accordion-button:focus {
@@ -204,9 +262,21 @@
   overflow: hidden;
 }
 
+.latest-articles {
+  background: linear-gradient(180deg, #ffffff, #eacac5);
+  overflow: hidden;
+}
+
 .sub-title {
   color: #5d5852;
   font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pool-address {
+  color: #5d5852;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -227,6 +297,12 @@
 }
 
 .visita-grav-img {
+  max-height: 40vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.riabilitazione-img {
   max-height: 40vh;
   width: 100%;
   object-fit: cover;
@@ -270,6 +346,7 @@
 /* Fifth Section */
 .fifth-section {
   background: linear-gradient(180deg, #eacac5, #ffffff);
+  overflow: hidden;
 }
 
 .form-control {
@@ -295,10 +372,15 @@
 
 .footer-cont {
   background-color: var(--bgCta);
+  border-top: 5px solid var(--main);
 }
 
 ul {
   list-style-type: none;
+}
+
+.list-acc {
+  list-style-type: disc !important;
 }
 
 .policy {
@@ -354,7 +436,11 @@ ul {
 .allattamento,
 .visita-post,
 .acquaticita-post,
-.svezzamento {
+.svezzamento,
+.riabilitazione,
+.accompagnamento,
+.parto,
+.tampone {
   height: 350px;
   font-size: 50px;
   font-weight: 700;
@@ -374,46 +460,66 @@ ul {
 }
 
 .corso-pre-parto {
-  background-image: url(../img/corso-preparto-colori.jpg);
+  background-image: url(../img/corso-preparto-ferrara.webp);
   background-position: center;
 }
 
 .consulenza-ostetrica {
-  background-image: url(../img/consulenza-grav-colori.jpg);
+  background-image: url(../img/consulenza-in-gravidanza-ferrara.webp);
   background-position: calc(100% - -70px) center;
 }
 
 .pavimento-pelvico-grav {
-  background-image: url(../img/pav-pelvico-grav-colori.jpg);
+  background-image: url(../img/visita-pavimento-pelvico-ferrara.webp);
   background-position: calc(100% - -70px) center;
 }
 
 .visita-in-gravidanza {
-  background-image: url(../img/visita-grav-colori.jpg);
+  background-image: url(../img/visita-in-gravidanza-ferrara.webp);
   background-position: calc(50% - -20px) center;
 }
 
 .acquaticita-grav {
-  background-image: url(../img/acquaticita-grav-colori.jpg);
+  background-image: url(../img/acquaticita-in-gravidanza-ferrara.webp);
 }
 
 .allattamento {
-  background-image: url(../img/allattamento.jpg);
+  background-image: url(../img/allattamento.webp);
   background-position: center;
 }
 
 .visita-post {
-  background-image: url(../img/visita-post.jpg);
+  background-image: url(../img/visita-ostetrica-post-parto-ferrara.webp);
   background-position: calc(50% - -40px) center;
 }
 
 .acquaticita-post {
-  background-image: url(../img/acquaticita-nati-colori.jpg);
+  background-image: url(../img/acquaticita-neonatale-ferrara.webp);
   background-position: center;
 }
 
 .svezzamento {
-  background-image: url(../img/svezzamento.jpg);
+  background-image: url(../img/svezzamento-e-disostruzione-ferrara.webp);
+  background-position: center;
+}
+
+.riabilitazione {
+  background-image: url(../img/riabilitazione-pavimento-pelvico-ferrara.webp);
+  background-position: center;
+}
+
+.tampone {
+  background-image: url(../img/tampone-e-pap-test-ferrara.webp);
+  background-position: center;
+}
+
+.accompagnamento {
+  background-image: url(../img/accompangamento-in-sala-parto-ferrara-mobile.webp);
+  background-position: center;
+}
+
+.parto {
+  background-image: url(../img/parto-a-casa-ferrara.webp);
   background-position: center;
 }
 
@@ -426,16 +532,87 @@ ul {
 .allattamento:hover,
 .visita-post:hover,
 .acquaticita-post:hover,
-.svezzamento:hover {
+.svezzamento:hover,
+.riabilitazione:hover,
+.tampone:hover,
+.accompagnamento:hover,
+.parto:hover {
   transform: scale(1.1);
+}
+
+/* Regolo Digitale */
+.regolo {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eacac5, #ffffff);
+  overflow: hidden;
+}
+
+.regolo-btn {
+  background-color: var(--main);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 20px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.regolo-btn:hover {
+  transform: scale(1.1);
+  color: #ffffff;
+  background-color: var(--main);
+}
+
+.regolo-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+.regolo-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--main);
+}
+
+.regolo-result {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.vese {
+  font-style: italic;
+  text-decoration: underline;
+  color: #5d5852;
+}
+
+/* Storie di Nascita */
+.stories-section {
+  min-height: 30vh;
+  background: linear-gradient(180deg, #ffffff, #eacac5);
+  border-bottom: 5px solid var(--main);
+}
+
+.stories-section-pari {
+  min-height: 30vh;
+  background: linear-gradient(180deg, #eacac5, #ffffff);
+  border-bottom: 5px solid var(--main);
+}
+
+.img-stories {
+  max-width: 80% !important;
+}
+
+.articles-cont {
+  width: inherit !important;
 }
 
 /* Tablet */
 @media (min-width: 991px) {
 
   .nav-link {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     color: var(--main);
     transition: transform 0.3s ease-in-out;
   }
@@ -444,8 +621,22 @@ ul {
     transform: scale(1.1);
   }
 
+  .accordion-button {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .accordion-button:hover {
+    transform: scale(1.05);
+  }
+
+  .accordion-button:not(.collapsed) {
+    transform: scale(1.05);
+  }
+
   .accompagnamento,
-  .parto {
+  .parto,
+  .riabilitazione,
+  .tampone {
     width: 500px !important;
     height: 500px !important;
   }
@@ -463,6 +654,21 @@ ul {
     object-position: center calc(50% - -100px);
   }
 
+  .riabilitazione-img {
+    object-position: center calc(50% - -200px);
+  }
+
+  .articles-img {
+    max-width: 70% !important;
+  }
+
+  .dropdown-menu.show {
+    position: fixed !important;
+  }
+
+  .dropdown-menu.sub.show {
+    position: absolute !important;
+  }
 }
 
 
@@ -484,16 +690,22 @@ ul {
     color: var(--main);
   }
 
+  .dropdown-menu.show {
+    width: auto;
+  }
+
   .img-scritta-mobile-cont {
-    width: 50%;
+    width: 40%;
   }
 
   .img-scritta-mobile {
     width: 100%;
+    height: auto !important;
   }
 
   /* First Section */
   .first-section {
+    background-image: url(../img/ostetrica-silvia-buzzoni-ambulatorio-mobile.webp);
     justify-content: space-around !important;
   }
 
@@ -521,6 +733,10 @@ ul {
     background: var(--bgCta);
   }
 
+  .latest-articles {
+    background: var(--bgCta);
+  }
+
   .text-dove {
     width: 100%;
   }
@@ -533,9 +749,32 @@ ul {
     margin-top: 10px;
   }
 
+  .visit-cont {
+    padding-bottom: 30px !important;
+  }
+
+  /* Storie di Nascita */
+  .stories-section {
+    background: var(--bgCta);
+    padding: 25px 0 !important;
+  }
+
+  .stories-section-pari {
+    background: var(--bgCta);
+    padding: 25px 0 !important;
+  }
+
 }
 
 @media (max-width: 767px) {
+
+  /* Regolo Digitale Interattivo */
+
+  .wheel-container {
+    position: relative;
+    width: 40vh;
+    height: 40vh;
+  }
 
   .first,
   .third,
@@ -556,6 +795,10 @@ ul {
     font-size: 25px;
   }
 
+  .title-article {
+    font-size: 20px;
+  }
+
   /* Gravidanza Section */
   .corso-pre-parto,
   .consulenza-ostetrica,
@@ -565,11 +808,15 @@ ul {
   .allattamento,
   .visita-post,
   .acquaticita-post,
-  .svezzamento {
-    height: 200px;
+  .svezzamento,
+  .riabilitazione,
+  .tampone,
+  .accompagnamento,
+  .parto {
+    height: 250px;
     font-size: 25px;
     font-weight: 700;
-    width: 200px;
+    width: 250px;
   }
 }
 
