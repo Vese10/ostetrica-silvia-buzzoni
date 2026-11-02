@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_SERVER_DIR }} # es. /public_html/ (con lo slash finale)
-          # protocol: ftps # decommentare se l'hosting supporta FTPS
+          protocol: ftps # il server accetta solo connessioni TLS
           exclude: |
             **/.git*
             **/.git*/**
