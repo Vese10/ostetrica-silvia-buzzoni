@@ -63,7 +63,7 @@
         },
         "offers": {
           "@type": "Offer",
-          "price": 182.00,
+          "price": 210.00,
           "priceCurrency": "EUR",
           "availability": "https://schema.org/InStock",
           "validFrom": "2025-01-01",
@@ -130,6 +130,8 @@
       </div>
     </div>
   </section>
+
+  <?php include 'components/faq/faq-corso-pre-parto.php'; ?>
 
   <?php include 'include/contact.php'; ?>
 

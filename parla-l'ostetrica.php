@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/include/config.php'; if (!BLOG_ENABLED) { header('Location: https://ostetricasilviabuzzoni.it/', true, 302); exit; } ?>
 <?php include 'modules/articles-info.php'; ?>
 <!DOCTYPE html>
 <html lang="it">

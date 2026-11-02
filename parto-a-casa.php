@@ -102,6 +102,8 @@
     </div>
   </section>
 
+  <?php include 'components/faq/faq-parto-casa.php'; ?>
+
   <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>

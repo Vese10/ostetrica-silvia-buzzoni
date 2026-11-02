@@ -25,7 +25,7 @@
   </section>
 
   <section class="footer d-flex flex-column">
-    <p class="footer-text text-center my-3 mx-5">D.ssa Silvia Buzzoni Ostetrica – p.iva 02068870381 – Iscritta all’ordine Ostetriche di Ferrara n. 1034 - Tutti i diritti riservati</p>
+    <p class="footer-text text-center my-3 mx-5">D.ssa Silvia Buzzoni Ostetrica – p.iva 02068870381 – Iscritta all’ordine delle Ostetriche di Modena e Ferrara n. 923 - Tutti i diritti riservati</p>
     <p class="footer-text text-center my-3 mx-5">Created by <a class="vese" href="https://vesewebdev.it/" target="_blank">Veselin Hristov<a></p>
   </section>
 
@@ -33,17 +33,25 @@
 
 <!-- GetButton.io widget -->
 <script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+393331676725", // WhatsApp number
-            button_color: "#4c4cff", // Color of button
-            position: "right", // Position may be 'right' or 'left'
-            order: "whatsapp", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
+  (function() {
+    var options = {
+      whatsapp: "+393331676725", // WhatsApp number
+      button_color: "#4c4cff", // Color of button
+      position: "right", // Position may be 'right' or 'left'
+      order: "whatsapp", // Order of buttons
+    };
+    var proto = document.location.protocol,
+      host = "getbutton.io",
+      url = proto + "//static." + host;
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function() {
+      WhWidgetSendButton.init(host, proto, options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  })();
 </script>
-<!-- /GetButton.io widget -->  
+<!-- /GetButton.io widget -->

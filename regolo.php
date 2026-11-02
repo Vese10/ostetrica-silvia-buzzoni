@@ -87,6 +87,7 @@
           </div>
         </div>
       </div>
+      <a href="https://mynava.it/abbonamenti?tool=pregnancyRuler" target="_blank" rel="noopener" class="btn btn-accordion my-5">Prova la versione completa</a>
     </div>
   </section>
 

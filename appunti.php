@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/include/config.php'; if (!BLOG_ENABLED) return; ?>
 <?php
   // Includi i file degli articoli e assegna a variabili separate
   include 'modules/articles-nascita.php';

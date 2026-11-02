@@ -4,7 +4,7 @@ const dateDisplay = document.getElementById("data-output");
 const clickSound = new Audio("/assets/sounds/regolo-sound.mp3"); // Percorso del suono di click
 
 // Variabili per tracciare lo stato
-let currentDate = new Date(2025, 0, 1); // Data iniziale: 1 Gennaio 2025
+let currentDate = new Date(new Date().getFullYear(), 0, 1); // Data iniziale: 1 Gennaio dell'anno corrente
 let totalRotation = 0; // Rotazione accumulata in gradi
 
 // Inizializza Flatpickr per il campo data

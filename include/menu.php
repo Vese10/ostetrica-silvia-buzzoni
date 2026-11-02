@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/config.php';
 $pageName = basename($_SERVER['PHP_SELF']);
 if ($pageName == "index.php") {
   $path = "";
@@ -98,6 +99,11 @@ if ($pageName == "index.php") {
         <li class="nav-item">
           <a class="nav-link me-4" href="javascript:void(0);" onclick="scrollToDoveLavoro()">Dove mi trovi</a>
         </li>
+        <?php if (FAQ_ENABLED): ?>
+        <li class="nav-item">
+          <a class="nav-link me-4" href="https://ostetricasilviabuzzoni.it/faq">FAQ</a>
+        </li>
+        <?php endif; ?>
         <li class="nav-item">
           <a class="nav-link me-5" href="javascript:void(0);" onclick="scrollToContatti()">Contatti</a>
         </li>

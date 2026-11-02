@@ -106,6 +106,8 @@
     </div>
   </section>
 
+  <?php include 'components/faq/faq-accompagnamento-ospedale.php'; ?>
+
   <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>

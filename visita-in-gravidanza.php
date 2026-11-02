@@ -87,6 +87,8 @@
     </div>
   </section>
 
+  <?php include 'components/faq/faq-visita-gravidanza.php'; ?>
+
   <?php include 'include/contact.php'; ?>
 
   <?php include 'include/footer.php'; ?>

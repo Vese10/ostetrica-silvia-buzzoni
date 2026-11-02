@@ -20,16 +20,19 @@ Creare un sito vetrina moderno, informativo e accessibile per un'ostetrica profe
    - **Rilevazione Sinfisi-Fondo** (`rilevazione-sinfisi-fondo.php`): Strumento per il monitoraggio della crescita fetale e dell'utero.
    - **Calcolo Calo Fisiologico** (`calcolo-calo-fisiologico.php`): Calcolatore per monitorare la perdita di peso neonatale nei primi giorni di vita.
 
-3. **Sezione Blog & Articoli**
+3. **Sistema di FAQ (Domande Frequenti)**
+   Una sezione dedicata e scalabile per risolvere i dubbi dell'utenza, suddivisa per categorie di servizio (Servizi per la gravidanza, il parto, il post parto e la donna). Le domande risiedono su file modulari in `components/faq/` e sono incluse sia nella pagina centralizzata (`faq.php`) sia all'interno di tutte le singole pagine dei servizi.
+
+4. **Sezione Blog & Articoli**
    Una zona dedicata al content marketing e all'emotional sharing, divisa in due categorie:
    - **Parla l'ostetrica**: Spazio per articoli divulgativi mirati.
    - **Storie di nascita**: Testimonianze dirette delle pazienti (social proof).
    **(Questi contenuti vengono raccolti e mostrati dinamicamente tramite i moduli `articles-info.php` e `articles-nascita.php`).*
 
-4. **Interazione con l'Utente (Contatti)**
+5. **Interazione con l'Utente (Contatti)**
    - Un modulo di contatto integrato (PHP + JS) che permette agli utenti di inviare messaggi o prenotare appuntamenti, che vengono poi smistati tramite script `send_mail.php` verso una casella e-mail protetta.
 
-5. **Conformità e Normative**
+6. **Conformità e Normative**
    - Presentazione di *Privacy Policy* e *Cookie Policy*, con relativo banner per la gestione dei consensi dell'utente tramite il modulo `cookie-banner`.
 
 ## 🛠 Modalità di Sviluppo e Tecnologie
